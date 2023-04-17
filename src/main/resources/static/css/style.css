@@ -1,0 +1,89 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    padding: 5% !important;
+}
+p{
+    font-size: 17px !important;
+}
+
+.card-body{
+    text-align: right;
+}
+.card-title{
+    font-size: 2.5rem !important;
+}
+
+/*593825*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    overflow-y: auto !important;
+}
+
+.child{
+    height: 80%;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+
+.submit-group{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.option-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option{
+    width: 200px !important;
+}
+
+
+.th-warning {
+    background-color: #ffff0040 !important;
+    color: #a9a91c;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+}
+.th-success {
+    background-color: rgba(34, 255, 0, 0.25) !important;
+    color: #1ca91e;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+}
+.th-danger {
+    background-color: rgba(255, 0, 0, 0.25) !important;
+    color: #a91c1c;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
